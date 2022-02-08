@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    overflow: hidden;
+  }
+input{
+border: none;
+background-color: rgb(13, 19, 46);
+width: 65%;
+position: absolute;
+bottom: 1%;
+left: 1%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+padding: 10px;
+border-radius: 4px;
+outline: none;
+color: aliceblue;
+transition: all ease-in-out 0.4s;
+overflow: visible;
+overflow-wrap: break-word;
+}
+input:hover{
+  filter: brightness(0.9);
+}
+#send-button{
+  border: none;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  width: 27.5%;
+  height: 35px;
+  border-radius: 4px;
+  background-color: rgb(0, 175, 73);
+  background-image: url('./send.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all ease-in-out 0.1s;
+}
+#send-button:hover{
+background-position: 70% 50%;
+}
+
+div{
+    border-radius: 8px;
+    background-color: #00ff4c;
+    padding: 10px 15px;
+    width: max-content;
+    max-width: 400px;
+    overflow: visible;
+    
+    overflow-wrap: break-word;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 14px;
+    border-bottom: black solid 3px;
+}
+::selection{
+    background-color: #000000;
+    color: #ffffff;
+}
+#logo{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  color: white;
+  font-weight: 600;
+  z-index: 20;
+}
